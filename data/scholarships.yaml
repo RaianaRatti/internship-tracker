@@ -1,0 +1,58 @@
+# Scholarships, conference grants and events (PLAN.md §5.6). Verify details on each site.
+scholarships:
+  - name: Generation Google Scholarship
+    org: Google
+    type: scholarship
+    url: https://buildyourfuture.withgoogle.com/scholarships
+    typical_deadline: Varies by region
+    summary: Scholarships for students in computing; check current eligibility by region.
+    eligibility: {}
+  - name: Grace Hopper Celebration Student Scholarships
+    org: AnitaB.org
+    type: event
+    url: https://ghc.anitab.org
+    typical_deadline: Spring (before fall conference)
+    summary: Conference attendance scholarships for women and non-binary technologists.
+    eligibility: {}
+  - name: SWE Scholarships
+    org: Society of Women Engineers
+    type: scholarship
+    url: https://www.swe.org/scholarships/
+    typical_deadline: Feb (rising sophomores–grads), May (incoming freshmen)
+    summary: Many scholarships through one application.
+    eligibility: {}
+  - name: NSBE Scholarships
+    org: National Society of Black Engineers
+    type: scholarship
+    url: https://www.nsbe.org/scholarships
+    typical_deadline: Varies
+    summary: Scholarships for NSBE members.
+    eligibility: {}
+  - name: HSF Scholar Program
+    org: Hispanic Scholarship Fund
+    type: scholarship
+    url: https://www.hsf.net/scholarship
+    typical_deadline: Feb
+    summary: Need- and merit-based scholarships for students of Hispanic heritage.
+    eligibility: { citizenship: any }
+  - name: AISES Scholarships
+    org: American Indian Science and Engineering Society
+    type: scholarship
+    url: https://www.aises.org/scholarships
+    typical_deadline: Spring
+    summary: Scholarships for Indigenous students in STEM.
+    eligibility: {}
+  - name: UNCF Scholarships
+    org: UNCF
+    type: scholarship
+    url: https://www.uncf.org/scholarships
+    typical_deadline: Varies
+    summary: Directory of UNCF-administered scholarships.
+    eligibility: {}
+  - name: MLH hackathon season
+    org: Major League Hacking
+    type: event
+    url: https://mlh.io/seasons/2027/events
+    typical_deadline: Rolling
+    summary: Official list of student hackathons this season.
+    eligibility: {}

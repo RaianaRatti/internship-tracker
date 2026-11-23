@@ -1,0 +1,87 @@
+# Company registry (PLAN.md §5.1): company -> public ATS board. Verified 2026-11-22.
+# Add your own in Settings -> Companies (the app auto-detects the ATS), or edit this file.
+# Big tech without a public board (Microsoft, Meta, Apple) is covered by the SimplifyJobs lists;
+# Google and Amazon have their own adapters.
+companies:
+  - { name: "Anysphere (Cursor)", ats: ashby, board: "cursor" }
+  - { name: "Benchling", ats: ashby, board: "benchling" }
+  - { name: "Clay", ats: ashby, board: "claylabs" }
+  - { name: "Cohere", ats: ashby, board: "cohere" }
+  - { name: "Harvey", ats: ashby, board: "harvey" }
+  - { name: "Linear", ats: ashby, board: "linear" }
+  - { name: "Modal", ats: ashby, board: "modal" }
+  - { name: "Notion", ats: ashby, board: "notion" }
+  - { name: "OpenAI", ats: ashby, board: "openai" }
+  - { name: "Perplexity", ats: ashby, board: "perplexity" }
+  - { name: "Ramp", ats: ashby, board: "ramp" }
+  - { name: "Replit", ats: ashby, board: "replit" }
+  - { name: "Sierra", ats: ashby, board: "sierra" }
+  - { name: "Snowflake", ats: ashby, board: "snowflake" }
+  - { name: "Supabase", ats: ashby, board: "supabase" }
+  - { name: "Affirm", ats: greenhouse, board: "affirm" }
+  - { name: "Airbnb", ats: greenhouse, board: "airbnb" }
+  - { name: "Akuna Capital", ats: greenhouse, board: "akunacapital" }
+  - { name: "Anduril", ats: greenhouse, board: "andurilindustries" }
+  - { name: "Anthropic", ats: greenhouse, board: "anthropic" }
+  - { name: "Asana", ats: greenhouse, board: "asana" }
+  - { name: "Block", ats: greenhouse, board: "block" }
+  - { name: "Brex", ats: greenhouse, board: "brex" }
+  - { name: "Chime", ats: greenhouse, board: "chime" }
+  - { name: "Cloudflare", ats: greenhouse, board: "cloudflare" }
+  - { name: "Coinbase", ats: greenhouse, board: "coinbase" }
+  - { name: "Databricks", ats: greenhouse, board: "databricks" }
+  - { name: "Datadog", ats: greenhouse, board: "datadog" }
+  - { name: "Discord", ats: greenhouse, board: "discord" }
+  - { name: "DoorDash", ats: greenhouse, board: "doordashusa" }
+  - { name: "Dropbox", ats: greenhouse, board: "dropbox" }
+  - { name: "Duolingo", ats: greenhouse, board: "duolingo" }
+  - { name: "Epic Games", ats: greenhouse, board: "epicgames" }
+  - { name: "Figma", ats: greenhouse, board: "figma" }
+  - { name: "Flexport", ats: greenhouse, board: "flexport" }
+  - { name: "Gusto", ats: greenhouse, board: "gusto" }
+  - { name: "Hudson River Trading", ats: greenhouse, board: "wehrtyou" }
+  - { name: "IMC", ats: greenhouse, board: "imc" }
+  - { name: "Instacart", ats: greenhouse, board: "instacart" }
+  - { name: "Jump Trading", ats: greenhouse, board: "jumptrading" }
+  - { name: "Lyft", ats: greenhouse, board: "lyft" }
+  - { name: "MongoDB", ats: greenhouse, board: "mongodb" }
+  - { name: "Nuro", ats: greenhouse, board: "nuro" }
+  - { name: "Okta", ats: greenhouse, board: "okta" }
+  - { name: "Pinterest", ats: greenhouse, board: "pinterest" }
+  - { name: "Point72", ats: greenhouse, board: "point72" }
+  - { name: "Reddit", ats: greenhouse, board: "reddit" }
+  - { name: "Riot Games", ats: greenhouse, board: "riotgames" }
+  - { name: "Robinhood", ats: greenhouse, board: "robinhood" }
+  - { name: "Roblox", ats: greenhouse, board: "roblox" }
+  - { name: "Rubrik", ats: greenhouse, board: "rubrik" }
+  - { name: "Samsara", ats: greenhouse, board: "samsara" }
+  - { name: "Scale AI", ats: greenhouse, board: "scaleai" }
+  - { name: "SpaceX", ats: greenhouse, board: "spacex" }
+  - { name: "Squarespace", ats: greenhouse, board: "squarespace" }
+  - { name: "Stripe", ats: greenhouse, board: "stripe" }
+  - { name: "Toast", ats: greenhouse, board: "toast" }
+  - { name: "Tower Research", ats: greenhouse, board: "towerresearchcapital" }
+  - { name: "Twilio", ats: greenhouse, board: "twilio" }
+  - { name: "Twitch", ats: greenhouse, board: "twitch" }
+  - { name: "Vercel", ats: greenhouse, board: "vercel" }
+  - { name: "Verkada", ats: greenhouse, board: "verkada" }
+  - { name: "Waymo", ats: greenhouse, board: "waymo" }
+  - { name: "Ziprecruiter", ats: greenhouse, board: "ziprecruiter" }
+  - { name: "Palantir", ats: lever, board: "palantir" }
+  - { name: "Spotify", ats: lever, board: "spotify" }
+  - { name: "Wealthfront", ats: lever, board: "wealthfront" }
+  - { name: "Adobe", ats: workday, board: "adobe/wd5/external_experienced" }
+  - { name: "Boeing", ats: workday, board: "boeing/wd1/EXTERNAL_CAREERS" }
+  - { name: "Capital One", ats: workday, board: "capitalone/wd12/Capital_One" }
+  - { name: "Cisco", ats: workday, board: "cisco/wd5/Cisco_Careers" }
+  - { name: "Intel", ats: workday, board: "intel/wd1/External" }
+  - { name: "Mastercard", ats: workday, board: "mastercard/wd1/CorporateCareers" }
+  - { name: "NVIDIA", ats: workday, board: "nvidia/wd5/NVIDIAExternalCareerSite" }
+  - { name: "Red Hat", ats: workday, board: "redhat/wd5/jobs" }
+  - { name: "Salesforce", ats: workday, board: "salesforce/wd12/External_Career_Site" }
+  - { name: "Workday", ats: workday, board: "workday/wd5/Workday" }
+  - { name: "Google", ats: google }
+  - { name: "Amazon", ats: amazon }
+  - { name: "Microsoft", ats: none }
+  - { name: "Meta", ats: none }
+  - { name: "Apple", ats: none }

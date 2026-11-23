@@ -1,0 +1,66 @@
+# Summer research programs (PLAN.md §5.5). "typical_deadline" is a guide only — always check the site.
+# eligibility keys: class_years (freshman..senior, grad), citizenship (us | us_or_pr | any)
+programs:
+  - name: NSF REU Sites (all fields)
+    org: National Science Foundation
+    type: research
+    url: https://www.nsf.gov/funding/initiatives/reu/search
+    typical_deadline: Jan–Mar
+    summary: Hundreds of funded 8–10 week summer research programs at universities, searchable by field.
+    eligibility: { class_years: [freshman, sophomore, junior, senior], citizenship: us_or_pr }
+  - name: Science Undergraduate Laboratory Internships (SULI)
+    org: U.S. Department of Energy
+    type: research
+    url: https://science.osti.gov/wdts/suli
+    typical_deadline: Jan (summer), May (fall), Oct (spring)
+    summary: Paid research internships at DOE national laboratories.
+    eligibility: { class_years: [sophomore, junior, senior], citizenship: us_or_pr }
+  - name: NIH Summer Internship Program (SIP)
+    org: National Institutes of Health
+    type: research
+    url: https://www.training.nih.gov/research-training/pb/sip/
+    typical_deadline: Feb
+    summary: Biomedical research summers in NIH intramural labs.
+    eligibility: { class_years: [freshman, sophomore, junior, senior], citizenship: us_or_pr }
+  - name: Amgen Scholars
+    org: Amgen Foundation
+    type: research
+    url: https://amgenscholars.com
+    typical_deadline: Jan–Feb
+    summary: Summer research in biotech/life sciences at partner universities.
+    eligibility: { class_years: [sophomore, junior, senior] }
+  - name: NASA Internships (OSTEM)
+    org: NASA
+    type: research
+    url: https://intern.nasa.gov
+    typical_deadline: Varies by term (fall/spring/summer cycles)
+    summary: Research and engineering internships across NASA centers.
+    eligibility: { citizenship: us }
+  - name: CMU Robotics Institute Summer Scholars (RISS)
+    org: Carnegie Mellon University
+    type: research
+    url: https://riss.ri.cmu.edu
+    typical_deadline: Jan
+    summary: Summer robotics research with RI faculty.
+    eligibility: { class_years: [sophomore, junior, senior] }
+  - name: Caltech SURF
+    org: Caltech
+    type: research
+    url: https://sfp.caltech.edu/undergraduate-research/programs/surf
+    typical_deadline: Feb
+    summary: Summer Undergraduate Research Fellowships with Caltech mentors.
+    eligibility: { class_years: [sophomore, junior, senior] }
+  - name: MIT Summer Research Program (MSRP)
+    org: MIT
+    type: research
+    url: https://oge.mit.edu/msrp/
+    typical_deadline: Jan–Feb
+    summary: Summer research for students from groups underrepresented in STEM, preparing for grad school.
+    eligibility: { class_years: [sophomore, junior] }
+  - name: Pathways to Science program search
+    org: Institute for Broadening Participation
+    type: research
+    url: https://www.pathwaystoscience.org
+    typical_deadline: Varies
+    summary: Searchable directory of funded summer research programs and fellowships.
+    eligibility: {}

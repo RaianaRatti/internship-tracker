@@ -1,0 +1,44 @@
+# Fellowships (PLAN.md §5.6). Verify deadlines on each site.
+fellowships:
+  - name: Barry Goldwater Scholarship
+    org: Goldwater Foundation
+    type: fellowship
+    url: https://goldwaterscholarship.gov
+    typical_deadline: Late Jan (campus deadlines earlier)
+    summary: For sophomores/juniors planning research careers in natural sciences, math, or engineering. Requires campus nomination.
+    eligibility: { class_years: [sophomore, junior], citizenship: us_or_pr }
+  - name: NSF Graduate Research Fellowship (GRFP)
+    org: National Science Foundation
+    type: fellowship
+    url: https://www.nsfgrfp.org
+    typical_deadline: Oct
+    summary: Three years of funding for research-based graduate study. Seniors may apply.
+    eligibility: { class_years: [senior, grad], citizenship: us_or_pr }
+  - name: NDSEG Fellowship
+    org: U.S. Department of Defense
+    type: fellowship
+    url: https://www.ndseg.org
+    typical_deadline: Varies — check site
+    summary: Graduate fellowship for STEM fields relevant to DoD.
+    eligibility: { class_years: [senior, grad], citizenship: us }
+  - name: Hertz Fellowship
+    org: Fannie and John Hertz Foundation
+    type: fellowship
+    url: https://www.hertzfoundation.org
+    typical_deadline: Oct
+    summary: Five-year PhD fellowship in applied science and engineering.
+    eligibility: { class_years: [senior, grad], citizenship: us_or_pr }
+  - name: GEM Fellowship
+    org: The GEM Consortium
+    type: fellowship
+    url: https://www.gemfellowship.org
+    typical_deadline: Nov
+    summary: MS/PhD fellowships with paid summer internships for underrepresented students in STEM.
+    eligibility: { class_years: [junior, senior, grad], citizenship: us_or_pr }
+  - name: Udall Undergraduate Scholarship
+    org: Udall Foundation
+    type: fellowship
+    url: https://www.udall.gov
+    typical_deadline: Early Mar (campus nomination)
+    summary: For sophomores/juniors committed to environment, or Native American/Alaska Native students in tribal policy or health care.
+    eligibility: { class_years: [sophomore, junior], citizenship: us_or_pr }

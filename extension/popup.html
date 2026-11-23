@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<style>
+  :root { --ink:#000; --paper:#fff; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#fff; --paper:#000; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; width: 320px; font: 15px/1.3 ui-monospace, Menlo, monospace; background: var(--paper); color: var(--ink); -webkit-font-smoothing: none; }
+  header { padding: 6px 10px; border-bottom: 2px solid var(--ink); background: repeating-linear-gradient(var(--ink) 0 2px, var(--paper) 2px 4px); }
+  header b { background: var(--paper); padding: 0 6px; letter-spacing: 1px; }
+  main { padding: 10px; display: flex; flex-direction: column; gap: 8px; }
+  button { font: inherit; width: 100%; text-align: left; padding: 6px 10px; border: 2px solid var(--ink); background: var(--paper); color: var(--ink); box-shadow: 3px 3px 0 var(--ink); cursor: pointer; }
+  button:hover { background: var(--ink); color: var(--paper); }
+  button:active { box-shadow: none; transform: translate(3px,3px); }
+  #status { border: 2px dashed var(--ink); padding: 6px 8px; min-height: 40px; white-space: pre-wrap; }
+  a { color: inherit; }
+  small { opacity: 1; }
+</style>
+</head>
+<body>
+  <header><b>QUEST LOG</b></header>
+  <main>
+    <div id="status">Checking this page…</div>
+    <button id="autofill">▶ AUTOFILL THIS FORM</button>
+    <button id="clip">＋ SAVE POSTING TO QUEST LOG</button>
+    <button id="applied">✓ I SUBMITTED, MARK APPLIED</button>
+    <button id="open">↗ OPEN IN QUEST LOG</button>
+    <small>Autofill never submits. Review every field, then click the site's submit button yourself. <a href="options.html" target="_blank">Settings</a></small>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

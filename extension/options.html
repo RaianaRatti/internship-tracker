@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8" /><title>Quest Log extension</title>
+<style>
+  body { font: 16px/1.4 ui-monospace, Menlo, monospace; max-width: 520px; margin: 40px auto; padding: 0 16px; background:#fff; color:#000; }
+  @media (prefers-color-scheme: dark) { body { background:#000; color:#fff; } input, button { background:#000; color:#fff; border-color:#fff !important; } }
+  input { width: 100%; font: inherit; padding: 6px; border: 2px solid #000; margin: 4px 0 14px; }
+  button { font: inherit; padding: 6px 14px; border: 2px solid #000; background: #fff; box-shadow: 3px 3px 0 currentColor; cursor: pointer; }
+</style></head>
+<body>
+  <h1>QUEST LOG</h1>
+  <label>App URL <input id="base" placeholder="http://localhost:3000" /></label>
+  <label>Extension token (Quest Log → Settings → Browser extension) <input id="token" /></label>
+  <button id="save">SAVE</button> <span id="ok"></span>
+  <script src="options.js"></script>
+</body>
+</html>
